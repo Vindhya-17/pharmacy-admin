@@ -83,7 +83,7 @@ const Transactions = () => {
                 <th className="p-4 text-left">Products</th>
                 {user.role === "Admin" && (
                   <th className="p-4 text-left">Actions</th>
-                )}{" "}
+                )}
               </tr>
             </thead>
             <tbody>
